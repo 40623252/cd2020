@@ -8,7 +8,8 @@
 <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3.在近端維護時，將目錄切換到倉儲中的cmsimde，以python wsgi.py啟動近端網際伺服器。</span></span></p>
 <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">動態內容編輯完成後，以generate_pages轉為靜態內容，以git add commit以及push將內容推到更長。</span></span></p>
 <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">4.之後若要以git clone取下包含submodule的所有內容，執行：</span></span></p>
-<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">git clone --recurse-submodules </span></span><a href="https://github.com/mdecourse/newcms.git"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">https://github.com/mdecourse/newcms.git</span></span></a></p><h1>Week</h1>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">git clone --recurse-submodules </span></span><a href="https://github.com/mdecourse/newcms.git"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">https://github.com/mdecourse/newcms.git</span></span></a></p>
+<h1>Week</h1>
 <h2>Week1~5</h2>
 <p>1.登入自己的github帳戶，並且創建名為cd2020的個人倉儲。</p>
 <p>2.進入存放的資料夾例如;tmp</p>
@@ -17,9 +18,22 @@
 <p>5.完成後使用cd cd2020 -&gt;cd cmsimde進入cmsimde的資料夾內。</p>
 <p>6.完成之後使用python wsgi.py進入靜態9443內編輯個人網站的資料。</p>
 <p>7.使用git add .  -&gt; commit -m ＂標題＂ -&gt; git push將剛剛編輯好的東西上傳。</p>
-<p>8.進入個人倉儲的setting中更改branch(分支)至master。</p><h2>Week6~9</h2>
-<h2>Week10~14</h2>
-<h2>Week15~18</h2><h1>Develop</h1>
+<p>8.進入個人倉儲的setting中更改branch(分支)至master。</p>
+<h2>Week6~9</h2>
+<p><span><strong><span color="#000000">分工內容:</span></strong></span></p>
+<p><span>topic0:</span><br/>40723237<br/>40723221<br/>40723222<br/>40723228<br/>40723243<br/>40723244<br/>40723236<br/>40623117</p>
+<p><span>topic1:</span><br/>40723221<br/>40723222<br/>40623252<br/>40523253<br/>40723249<br/>40732331<br/>40723240<br/>40723237</p>
+<p></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/B6zwMXl1V3Y" width="560"></iframe></p>
+<p>OBS Studio 是個免費且開放原始碼的影音串流直播工具<span>（OBS 全名為 Open Broadcaster Software）</span>可支援 YouTube, YouTube Gaming, Twitch, Facebook Live, Smashcast, DailyMotion, Twitter…等三十多個影音平台與直播服務讓我們輕鬆將電腦中的影片、視窗畫面、遊戲畫面或攝影機、麥克風等裝置的即時影像與內容轉播出去。</p>
+<p>OBS Studio 的使用方法很簡單，</p>
+<div></div>
+<p><span>我們可以設定多個不同的「場景」每個場景可以事先安排好要顯示哪些圖檔、字幕、影片或擷取哪些輸入裝置或軟體、遊戲的視窗等畫面按下「開始串流」按鈕後即可將你安排的內容即時傳輸到指定的直播平台（如 YouTube 或 Twitch）邊直播還可邊透過麥克風講話或透過 Webcam 拍攝現場畫面。開始直播後任何人只要開啟直播頻道的網址就能馬上看到你精心安排的影音內容。<a href="https://briian.com/47680/">https://briian.com/47680/</a></span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/40Fpoj4krLI" width="560"></iframe></span></p>
+<p>心得:</p>
+<p>Week10~14</p>
+<h2>Week15~18</h2>
+<h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
