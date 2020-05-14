@@ -67,6 +67,21 @@
 <p><span>參考資料:</span><br/><span>CMS</span>:http://mde.tw/cd2020pj1/content/CMS.html<br/><span>google用戶設置影片</span>:https://drive.google.com/file/d/1G4MzXUIbNRK7z2XdjtxXzhX51zHHwq85/view?usp=sharing</p>
 <p><span>開會紀錄影片:</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jr4IxIwdHLk" width="560"></iframe></span></p>
+<h4>google用戶端登入程序說明及疑難排解{影片經過加速處理}</h4>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW">1.<br/><span>Log in to your google account {school's}</span><br/>2.</span></pre>
+<pre class="tw-data-text tw-text-large XcVN5d tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en">Go to https://console.developers.google.com</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW"></span><span lang="zh-TW">3.</span></pre>
+<pre class="tw-data-text tw-text-large XcVN5d tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en">Create a Google API project and accept the required project</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW">4.<br/><span>Implement and enable Google's API</span></span><span lang="zh-TW"><br/>5.</span></pre>
+<pre class="tw-data-text tw-text-large XcVN5d tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en">Select the consent button in Google Domain API</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW"></span><span lang="zh-TW">6.</span></pre>
+<pre class="tw-data-text tw-text-large XcVN5d tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en">Choose internal or {external} users to add new application porgram</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW"></span><span lang="zh-TW">7</span></pre>
+<pre class="tw-data-text tw-text-large XcVN5d tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="en">Enter the credentials under API and service</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW"></span><span lang="zh-TW">8.<br/><span>Create credentials of type "OAuth 2.0 Client ID" for web applications</span></span><span lang="zh-TW"><br/>9.<br/><span>(Set URL) The authorized JavaScript is: https: // localhost: 8443</span></span><span lang="zh-TW"><br/>10.<br/></span><span lang="en">Define the URI as: https: // localhost: 8443 / login / google /</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW"></span><span lang="zh-TW">11.<br/></span><span lang="en">Save oauth_gm.txt</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW"></span><span lang="zh-TW">12.<br/></span><span lang="en">Open leo to change the name of the txt file named scrum in the config, and press save and darwROC after the modification is completed</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW">13.open https://localhost:8443<br/>14.test   the end<br/><br/></span></pre>
 <h1>Week15~18</h1>
 <p>Develop</p>
 <p><br/><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
